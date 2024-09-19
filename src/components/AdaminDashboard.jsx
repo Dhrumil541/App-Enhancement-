@@ -28,7 +28,7 @@ const AdminDashboard = () => {
       setNewTask("");
       setSelectedUser("");
     } else {
-      alert("Kripya task details aani user ne assign karo.");
+      alert("Please assign the task details to the user..");
     }
   };
 
@@ -55,7 +55,7 @@ const AdminDashboard = () => {
         [userId]: "",
       });
     } else {
-      alert("Kripya role enter karo jo update karvu che.");
+      alert("Please assign the task details to the user.");
     }
   };
 
